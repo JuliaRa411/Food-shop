@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App1{
+  display: flex;
+  justify-content: space-around;
+}
+body{
+  background-color: antiquewhite;
+}
+.block{
+  padding: 20px;
+  background-color: rgb(158, 133, 103);
+}
+ 
+
+.cartIcon{
+  width: 70px;
+}
+.categoryButtonSelected{
+  background-color: #fdeb6b;
+  padding: 5px;
+}
+.categoryButton:hover {
+ background-color: #f1c893;;
+}
+.categoryButton{
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+}
+
+.icon{
+  width: 20px;
+}
+
+
+p,h1,h2,button{
+
+ 
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+
+}
+button{
+  background-color: #fdeb6b;
+  margin-top: 10px;
+  margin-left: 15px;
+  border-radius: 7px;
+  padding: 3px;
+
+}
